@@ -45,6 +45,7 @@ public class Demo02MethodDefine {
     public static int sum(int a, int b){
         int result = a + b;
         System.out.println(result);
+        System.out.println("苏喂苏喂");
         return result;
     }
 
