@@ -18,4 +18,6 @@ Ctrl+Shift+/            选中代码注释，多行注释，再按取消注释
 Alt+Ins                 自动生成代码，toString、get、set等方法
 Alt+Shift+上下箭头      移动当前代码行
 5.fori                 循环5次的for循环语句
+选中后shift + F6        相同内容批量更改
+ctrl + 左键方法名        查看该方法的定义或调用
  */
