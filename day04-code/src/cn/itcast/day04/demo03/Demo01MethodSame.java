@@ -17,7 +17,7 @@ public class Demo01MethodSame {
     方法名称：isSame
     参数列表：int a, int b
      */
-    public static boolean isSame(int a, int b){
+    public static boolean isSame(int a, int b) {
         /*boolean same;
         if (a == b)
             same = true;
@@ -31,4 +31,5 @@ public class Demo01MethodSame {
 
         return a == b;
     }
+
 }

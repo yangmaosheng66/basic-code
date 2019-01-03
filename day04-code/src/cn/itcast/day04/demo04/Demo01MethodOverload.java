@@ -18,7 +18,7 @@ package cn.itcast.day04.demo04;
  */
 public class Demo01MethodOverload {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         /*System.out.println(sumTwo(10,20)); // 30
         System.out.println(sumThree(10,20,30)); // 60
         System.out.println(sumFour(10,20,30,40)); // 100*/
@@ -31,39 +31,39 @@ public class Demo01MethodOverload {
         sum(10,20);
     }
 
-    public static int sum(int a, double b){
-        return (int)(a + b);
+    public static int sum(int a, double b) {
+        return (int) (a + b);
     }
 
-    public static int sum(double a, int b){
-        return (int)(a + b);
+    public static int sum(double a, int b) {
+        return (int) (a + b);
     }
 
-    public static int sum(int a , int b){
+    public static int sum(int a , int b) {
         System.out.println("有两个参数的方法执行！");
         return a + b;
     }
 
-    //错误写法！与方法的返回值类型无关
-//  public static double sum(int a , int b){
+    // 错误写法！与方法的返回值类型无关
+//  public static double sum(int a , int b) {
 //      return a + b + 0.0;
 //  }
 
-    //错误写法！与参数的名称无关
-//  public static int sum(int x , int y){
+    // 错误写法！与参数的名称无关
+//  public static int sum(int x , int y) {
 //      return x + y;
 //  }
 
-    public static int sum(double a, double b){
-        return (int)(a + b);
+    public static int sum(double a, double b) {
+        return (int) (a + b);
     }
 
-    public static int sum(int a, int b, int c){
+    public static int sum(int a, int b, int c) {
         System.out.println("有三个参数的方法执行！");
         return a + b + c;
     }
 
-    public  static int sum(int a, int b, int c, int d){
+    public  static int sum(int a, int b, int c, int d) {
         System.out.println("有四个参数的方法执行！");
         return a + b + c + d;
     }

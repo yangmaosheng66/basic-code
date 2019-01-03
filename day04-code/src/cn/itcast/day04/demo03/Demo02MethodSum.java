@@ -6,7 +6,7 @@ package cn.itcast.day04.demo03;
  */
 public class Demo02MethodSum {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println("结果是：" + getSum());
     }
 
@@ -16,11 +16,12 @@ public class Demo02MethodSum {
     方法名称：getSum
     参数列表：不需要
      */
-    public static int getSum(){
+    public static int getSum() {
         int sum = 0;
         for (int i = 1; i <= 100; i++) {
             sum += i;
         }
         return sum;
     }
+
 }

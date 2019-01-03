@@ -1,7 +1,7 @@
 package cn.itcast.day04.demo01;
 
 public class HelloWorld {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println("Hello World!");
     }
 }
@@ -16,9 +16,11 @@ Ctrl+Alt+L              格式化代码
 Ctrl+/                  单行注释，再按取消注释
 Ctrl+Shift+/            选中代码注释，多行注释，再按取消注释
 Alt+Ins                 自动生成代码，toString、get、set等方法
-Alt+Shift+上下箭头      移动当前代码行
-5.fori                 循环5次的for循环语句
+Alt+Shift+上下箭头       移动当前代码行
+5.fori                  循环5次的for循环语句
 array.fori              用for循环对数组array进行遍历
-选中后shift + F6        相同内容批量更改
+选中后shift+F6           相同内容批量更改
 ctrl + 左键方法名        查看该方法的定义或调用
- */
+Alt+4                   展开/收起 控制台
+Alt+/                   自动补全代码
+*/
