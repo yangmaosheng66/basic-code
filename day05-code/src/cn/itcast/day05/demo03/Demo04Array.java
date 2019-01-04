@@ -5,10 +5,10 @@ package cn.itcast.day05.demo03;
  */
 public class Demo04Array {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int[] array = {15, 25, 30, 40, 50, 60, 75};
 
-        //首先使用原始方式
+        // 首先使用原始方式
         System.out.println(array[0]); // 15
         System.out.println(array[1]); // 25
         System.out.println(array[2]); // 30
@@ -17,12 +17,13 @@ public class Demo04Array {
         System.out.println(array[5]); // 60
         System.out.println("================");
 
-        //使用循环，次数其实就是数组的长度
+        // 使用循环，次数其实就是数组的长度
         for (int i = 0; i < 6; i++) {
             System.out.println(array[i]);
         }
         System.out.println("================");
 
+        // 快捷键 array.fori
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }

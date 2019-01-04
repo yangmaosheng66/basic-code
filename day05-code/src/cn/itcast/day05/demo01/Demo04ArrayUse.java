@@ -12,17 +12,17 @@ package cn.itcast.day05.demo01;
  */
 public class Demo04ArrayUse {
 
-    public static void main(String[] args){
-        //静态初始化的省略格式
-        int[] array = {10, 20, 30};
+    public static void main(String[] args) {
+        // 静态初始化的省略格式
+        int[] array = { 10, 20, 30 };
 
-        System.out.println(array); // [I@4554617c ('[':数组,'I':int)
+        System.out.println(array); // [I@1e643faf ( '[':数组,'I':int  )
 
-        //直接打印数组当中的元素
+        // 直接打印数组当中的元素
         System.out.println(array[0]); // 10
         System.out.println("===============");
 
-        //也可以将数组当中的某一个单个元素，赋值交给变量
+        // 也可以将数组当中的某一个单个元素，赋值交给变量
         int num = array[1];
         System.out.println(num); // 20
     }

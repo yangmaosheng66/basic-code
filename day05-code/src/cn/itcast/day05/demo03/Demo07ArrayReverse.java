@@ -9,10 +9,10 @@ package cn.itcast.day05.demo03;
  */
 public class Demo07ArrayReverse {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int[] array = {1, 2, 3, 4, 5};
 
-        //遍历打印数组本来的样子
+        // 遍历打印数组本来的样子
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
@@ -30,7 +30,7 @@ public class Demo07ArrayReverse {
                 array[max] = temp;
         }
 
-        //再次遍历打印输出数组反转后的样子
+        // 再次遍历打印输出数组反转后的样子
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
