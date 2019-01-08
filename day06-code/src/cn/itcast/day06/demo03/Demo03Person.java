@@ -7,7 +7,7 @@ public class Demo03Person {
         person.show();
 
         person.name = "癞疙宝";
-//        person.age = -24; // 直接访问private内容，错误写法！
+//      person.age = -24; // 直接访问private内容，错误写法！
         person.setAge(-24);
         person.show();
     }

@@ -28,11 +28,13 @@ public class Demo02ArrayListStudent {
         list.add(stu3);
         list.add(stu4);
 
-        //遍历集合
+        // 遍历集合
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i).getName() + " " +list.get(i).getAge());
         }
 
+        System.out.println(list); // 地址值 [地址值1, 地址值2, 地址值3, ...]
+        System.out.println(list.get(0)); // 地址值 cn.itcast.day07.demo05.Student@6e8dacdf
     }
 
 }

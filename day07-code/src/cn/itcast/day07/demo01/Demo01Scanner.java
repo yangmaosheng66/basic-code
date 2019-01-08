@@ -24,15 +24,15 @@ Scanner类的功能：可以实现键盘输入数据到程序当中
 public class Demo01Scanner {
 
     public static void main(String[] args) {
-        //2.创建
-        //备注：【System.in】代表从键盘输入
+        // 2.创建
+        // 备注：【System.in】代表从键盘输入
         Scanner sc = new Scanner(System.in);
 
-        //3.获取键盘输入的int数字
+        // 3.获取键盘输入的int数字
         int num = sc.nextInt();
         System.out.println("输入的int数字是：" + num);
 
-        //4.获取键盘输入的字符串
+        // 4.获取键盘输入的字符串
         String str = sc.next();
         System.out.println("输入的字符串是：" + str);
     }

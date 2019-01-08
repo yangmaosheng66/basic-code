@@ -9,7 +9,7 @@ public class Demo05PhoneReturn {
         System.out.println(two.color);
     }
 
-    public static Phone getPhone(){
+    public static Phone getPhone() {
         Phone one = new Phone();
         one.brand = "Apple";
         one.price = 8388.0;

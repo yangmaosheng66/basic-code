@@ -21,7 +21,7 @@ public class Demo03Random {
         for (int i = 0; i < 100; i++) {
             // 范围本来是[0,n)，整体+1之后变成了[1,n+1)，也就是[1,n]
             int result = r.nextInt(n) + 1;
-            System.out.println(result);
+            System.out.println(result); // [1,5]
         }
     }
 

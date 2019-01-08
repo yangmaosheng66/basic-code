@@ -11,7 +11,7 @@ public class Demo04PhoneParam {
         method(one); // 传递进去的参数其实就是地址值
     }
 
-    public static void method(Phone param){
+    public static void method(Phone param) {
         System.out.println(param.brand); // Apple
         System.out.println(param.price); // 8388.0
         System.out.println(param.color); // 土豪金

@@ -20,31 +20,34 @@ import java.util.Random;
     参数列表：ArrayList大集合(装着20个随机数字)
 5.判断(if)是偶数，num % 2 == 0
 6.如果是偶数，就放到小集合当中，否则不放。
+
+注意事项：
+ArrayList集合作为 参数传入 和 返回值传出 都是在传递【地址值】
  */
 public class Demo04ArrayListReturn {
 
     public static void main(String[] args) {
-        ArrayList<Integer> listA = new ArrayList<>();
+        ArrayList<Integer> bigList = new ArrayList<>();
         Random r = new Random();
         for (int i = 0; i < 20; i++) {
-            listA.add(r.nextInt(100) + 1); // 1~100
+            bigList.add(r.nextInt(100) + 1); // 1~100
         }
-        System.out.println(listA);
+        System.out.println(bigList);
 
-        System.out.println(getEvenNum(listA));
-        System.out.println("偶数个数：" + getEvenNum(listA).size());
+        System.out.println(getEvenNum(bigList));
+        System.out.println("偶数个数：" + getEvenNum(bigList).size());
     }
 
-    //这个方法，接收大集合参数，返回小集合结果
+    // 这个方法，接收大集合参数，返回小集合结果
     public static ArrayList<Integer> getEvenNum(ArrayList<Integer> list) { // 传入的是【地址值】
-        //创建一个小集合，用来装偶数结果
-        ArrayList<Integer> listB = new ArrayList<>();
+        // 创建一个小集合，用来装偶数结果
+        ArrayList<Integer> smallList = new ArrayList<>();
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i) % 2 == 0){
-                listB.add(list.get(i));
+                smallList.add(list.get(i));
             }
         }
-        return listB; // 返回的是【地址值】
+        return smallList; // 返回的是【地址值】
     }
 
 }

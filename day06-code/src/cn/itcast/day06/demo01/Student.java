@@ -27,7 +27,7 @@ package cn.itcast.day06.demo01;
  */
 public class Student {
 
-    //成员变量
+    // 成员变量
     String name; // 姓名
     int age; // 年龄
 

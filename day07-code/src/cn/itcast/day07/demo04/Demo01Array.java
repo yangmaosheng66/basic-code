@@ -9,14 +9,14 @@ package cn.itcast.day07.demo04;
 public class Demo01Array {
 
     public static void main(String[] args) {
-        //首先创建一个长度为3的数组，里面用来存放Person类型的对象
+        // 首先创建一个长度为3的数组，里面用来存放Person类型的对象
         Person[] array = new Person[3];
 
         Person one = new Person("癞疙宝",24);
         Person two = new Person("大便蛮王",30);
         Person three = new Person("孙笑川",35);
 
-        //将one当中的【地址值】赋值到数组的0号元素位置
+        // 将one当中的【地址值】赋值到数组的0号元素位置
         array[0] = one;
         array[1] = two;
         array[2] = three;

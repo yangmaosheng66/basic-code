@@ -21,7 +21,7 @@ public class Demo03PhoneSame {
         one.sendMessage(); // 群发短信
         System.out.println("====================");
 
-        //将one当中保存的对象地址赋值给two
+        // 将one当中保存的对象地址赋值给two
         Phone two = one; // 两个对象名称指向了同一个对象，对象的名称也叫对象的引用名
         System.out.println(two.brand); // Apple
         System.out.println(two.price); // 8388.0

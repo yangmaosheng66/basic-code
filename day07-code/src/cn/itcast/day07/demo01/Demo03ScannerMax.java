@@ -27,7 +27,7 @@ public class Demo03ScannerMax {
         System.out.println("请输入第三个数字：");
         int c = sc.nextInt();
 
-        //首先得到前两个数字当中的最大值
+        // 首先得到前两个数字当中的最大值
         int temp = a > b ? a : b;
         int max = temp > c ? temp : c;
         System.out.println("最大值是：" + max);

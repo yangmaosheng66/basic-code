@@ -18,11 +18,11 @@ public class Person {
     String name; // 姓名
     private int age; // 年龄
 
-    public void show(){
+    public void show() {
         System.out.println("我叫：" + name + "，年龄：" + age);
     }
 
-    //这个成员方法，专门用于向age设置数据
+    // 这个成员方法，专门用于向age设置数据
     public void setAge(int num) {
         if (num < 100 && num >= 0){ // 如果是合理情况
             age = num;
@@ -32,8 +32,9 @@ public class Person {
 
     }
 
-    //这个成员方法，专门用于获取age的数据
+    // 这个成员方法，专门用于获取age的数据
     public int getAge() {
         return age;
     }
+
 }

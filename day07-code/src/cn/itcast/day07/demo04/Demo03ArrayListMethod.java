@@ -21,7 +21,7 @@ public class Demo03ArrayListMethod {
         ArrayList<String> list = new ArrayList<>();
         System.out.println(list); // []
 
-        //向集合中添加元素：add
+        // 向集合中添加元素：add
         boolean success = list.add("癞疙宝");
         System.out.println(list); // [癞疙宝, 大便蛮王, 孙笑川]
         System.out.println("添加的动作是否成功：" + success); // true
@@ -31,16 +31,16 @@ public class Demo03ArrayListMethod {
         list.add("激光笔");
         System.out.println(list); // [癞疙宝, 大便蛮王, 孙笑川, 激光笔]
 
-        //从集合中获取元素：get，索引值从【0】开始
+        // 从集合中获取元素：get，索引值从【0】开始
         String name = list.get(2);
         System.out.println("第2号索引位置：" + name);
 
-        //从集合中删除元素，remove，索引值从【0】开始
+        // 从集合中删除元素，remove，索引值从【0】开始
         String whoRemoved = list.remove(1);
         System.out.println("被删除的人是：" + whoRemoved);
         System.out.println(list);
 
-        //获取集合的长度尺寸，也就是其中【元素的个数】
+        // 获取集合的长度尺寸，也就是其中【元素的个数】
         int size = list.size();
         System.out.println("集合的长度是：" + size);
 
