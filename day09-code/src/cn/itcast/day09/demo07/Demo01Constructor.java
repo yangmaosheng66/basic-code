@@ -8,7 +8,7 @@ package cn.itcast.day09.demo07;
 3.super的父类构造调用，必须是【子类】【构造方法】的【第一个】语句。不能一个子类构造调用多次super构造。
 
 注意事项：
-子类构造方法必须调用父类构造方法，不写则赠送super()；写了则用写的指定的super调用，super只能有一个，还必须是第一个。
+子类构造方法【必须】调用父类构造方法，不写则赠送super()；写了则用写的指定的super调用，super只能有一个，还必须是第一个。
  */
 public class Demo01Constructor {
 

@@ -9,7 +9,7 @@ public class Zi extends Fu {
     }
 
     public void method() {
-//        super(); // 错误写法！只有子类构造方法，才能调用父类构造方法
+//        super(); // 错误写法！只有【子类构造】方法，才能调用【父类构造】方法
     }
 
 }
