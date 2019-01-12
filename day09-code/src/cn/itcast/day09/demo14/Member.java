@@ -15,10 +15,13 @@ public class Member extends User {
 
     public void receive(ArrayList<Integer> list) {
         // 从多个红包当中随便抽取一个，给我自己
-
-        int index = new Random().nextInt(list.size());
-
-        //
-        super.setMoney(super.getMoney() + list.remove(index));
+        // 随机获取一个集合当中的索引编号
+        int index = new Random().nextInt(list.size()); // 匿名对象，只用一次
+        // 根据索引，从集合当中删除，并且得到被删除的红包，给我自己
+        int delta = list.remove(index); // delta：[数]变量增量，即变动的金额
+        // 当前成员自己本来有多少钱
+        int money =super.getMoney();
+        // 加法，并且重新设置回去
+        super.setMoney(money + delta);
     }
 }
