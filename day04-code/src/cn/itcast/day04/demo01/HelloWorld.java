@@ -29,4 +29,5 @@ Alt+鼠标左键             上下对齐选中
 Ctrl+F12                文件结构：在JDK中查询相关信息
                         在子类中直接写父类方法名再回车可以自动重写覆盖
 Refactor                重构
+Ctrl+Shift+F9           重新编译Recompile
  */
