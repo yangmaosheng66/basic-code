@@ -4,7 +4,7 @@ package cn.itcast.day04.demo02;
 复习一下此前学习的方法基础入门知识。
 
 定义格式：
-public static void 方法名称（）{20200718d
+public static void 方法名称（）{
     方法体；
 }
 
